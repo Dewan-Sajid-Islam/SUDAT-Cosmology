@@ -59,6 +59,28 @@ python src/run_nested_sampling.py
 * Produces distinct scale-dependent features
 * Achieves strong Bayesian preference when such features are present
 
+* ## MCMC Analysis
+
+To run parameter estimation:
+
+```bash
+python run_mcmc.py
+````
+
+This generates:
+
+* `mcmc_samples.npy`
+
+To visualize results:
+
+```bash
+python corner_plot.py
+```
+
+This produces:
+
+* `corner.png`
+
 ---
 
 ## 📄 Paper
